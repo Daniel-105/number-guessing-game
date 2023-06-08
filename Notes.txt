@@ -1,0 +1,79 @@
+// my number = 7
+
+// enter the max number (10)
+
+// int guess = Convert.ToInt32(maxNumber/2)?
+// answer: yes, lower, higher
+// if answer == "yes" Congrats
+// else if == "lower" guess = guess / 2 
+// else if == "higher" guess = 
+
+
+// I think I need two variables
+
+
+// 1st example
+/*
+Number = 7
+maxNumber = 10
+
+machineGuess = maxNumber/2 // (5)
+
+userResponse = higher
+
+lowestSoFar = machineGuess
+
+machineGuess = float(machineGuess + machineGuess/2) // 8
+
+userResponse = lower
+
+machineGuess = float(machineGuess - (machineGuess - lowestSoFar) / 2) 
+*/
+
+
+// 2nd example
+/*
+Number = 2
+maxNumber = 10
+
+machineGuess = maxNumber/2 // (5)
+
+userResponse = lower 
+
+highestSoFar = machineGuess // (5)
+
+machineGuess = float(machineGuess / 2) // (3)
+
+userResponse = lower 
+
+highestSoFar = machineGuess // (3)
+
+machineGuess = machineGuess / 2 // (2)
+
+userResponse = yes 
+*/
+
+
+// 3rd example
+/*
+Number = 4
+maxNumber = 10
+
+machineGuess = maxNumber/2 // (5)
+
+userResponse = lower 
+
+highestSoFar = machineGuess // (5)
+
+machineGuess = float(machineGuess / 2) // (3)
+
+userResponse = higher
+
+lowestSoFar = machineGuess // (3)
+
+if highestSoFar - lowestSoFar = 2
+
+machineGuess = lowestSoFar + 1
+
+userResponse = yes 
+*/
