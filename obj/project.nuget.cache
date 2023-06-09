@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ol4Ck07K1FetRHycCqvSwn8eFWYRPxuggd7i7wBJq4IzPTZFERGVnsFqprUNZ60W8DGB/GabeF/IUIoAKRLNmg==",
+  "dgSpecHash": "uQSYCq163qide0O18rGs+Sm3Wn6xhOVnZMLRtRdlIAHtUbOvg+SjoB+UIdASX9E77wKQ4zsM31XzlbaT3zMqFQ==",
   "success": true,
-  "projectFilePath": "/home/danielpinto105/Desktop/csProjects/gessingNumberGame/gessingNumberGame.csproj",
+  "projectFilePath": "/home/danielpinto105/Desktop/csProjects/guessingNumberGame/gessingNumberGame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
